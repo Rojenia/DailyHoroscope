@@ -23,7 +23,6 @@ public class Horoscope extends JFrame {
 	private JLabel menuLabel;
     
 	private Horoscope() {
-		//Set Horoscopes
 		try {
 			dailyHoroscope.astroSigns();
 		} catch (Exception e) {
@@ -232,7 +231,3 @@ public class Horoscope extends JFrame {
 		new Horoscope();
 	}
 }
-
-
-
-
